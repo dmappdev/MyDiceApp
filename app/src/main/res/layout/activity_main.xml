@@ -40,15 +40,18 @@
         android:gravity="center">
 
         <ImageView
+            android:id="@+id/imgDice1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/dice2"
-            android:layout_weight="50"/>
+            android:layout_weight="50"
+            android:src="@drawable/dice2" />
+
         <ImageView
+            android:id="@+id/imgDice2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/dice5"
-            android:layout_weight="50"/>
+            android:layout_weight="50"
+            android:src="@drawable/dice5" />
 
     </LinearLayout>
 </LinearLayout>
